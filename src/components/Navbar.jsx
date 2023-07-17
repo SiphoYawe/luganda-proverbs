@@ -4,7 +4,7 @@ const Navbar = () => {
 			<div className="mx-auto flex max-w-screen-xl items-center justify-between p-4">
 				<a href="/" className="flex items-center">
 					<img
-						src="/logo.svg"
+						src="/logo.png"
 						className="mr-3 h-8 md:h-12"
 						alt="Luganda Proverbs Logo"
 					/>
