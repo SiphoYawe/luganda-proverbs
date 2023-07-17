@@ -2,7 +2,7 @@
 ![Logo](https://i.ibb.co/X3mdQ9b/Logo.png)
 
 
-# Luganda Proverbs
+# Luganda Proverbs (Under Construction 🚧)
 [www.luganda-proverbs.vercel.app](https://luganda-proverbs.vercel.app/)
 
 This project aims to provide an interactive website that generates traditional Luganda sayings and proverbs along with their English translations.
