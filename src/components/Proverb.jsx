@@ -1,8 +1,8 @@
-import { SkeletonText, Skeleton } from "@chakra-ui/react";
+import { SkeletonText } from "@chakra-ui/react";
 
-const Proverb = ({ proverb }) => {
+const Proverb = ({ proverb, isUpdating }) => {
 	{
-		if (proverb) {
+		if (isUpdating === false) {
 			return (
 				<div className=" mx-auto flex max-w-[90%] grow flex-col justify-center gap-y-3">
 					<p className=" text-2xl font-bold text-primary sm:text-3xl">
@@ -14,7 +14,7 @@ const Proverb = ({ proverb }) => {
 				</div>
 			);
 		}
-		if (!proverb) {
+		if (isUpdating) {
 			return (
 				<div className=" mx-auto flex w-full max-w-[90%] grow flex-col justify-center gap-y-3">
 					<SkeletonText mt="4" noOfLines={3} spacing="4" skeletonHeight="5" />

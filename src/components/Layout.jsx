@@ -1,18 +1,27 @@
 import React from "react";
 import ProverbsCard from "./ProverbsCard";
 import { supabase } from "../lib/supabaseAPI";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+
 const Layout = () => {
 	const [proverb, setproverb] = useState(null);
+	const [isUpdating, setisUpdating] = useState(null);
 
 	const getProverb = async () => {
-		const { data } = await supabase
-			.from("random_proverbs")
-			.select("*")
-			.single()
-			.limit(1);
+		try {
+			setisUpdating(true);
+			const { data } = await supabase
+				.from("random_proverbs")
+				.select("*")
+				.single()
+				.limit(1);
 
-		setproverb(data);
+			setproverb(data);
+		} catch (error) {
+			console.log(error);
+		} finally {
+			setisUpdating(false);
+		}
 	};
 	return (
 		<section className="bg-pattern z-0 flex grow items-center bg-gray-100 bg-cover py-9">
@@ -21,7 +30,11 @@ const Layout = () => {
 					Luganda Proverb Generator
 				</h1>
 
-				<ProverbsCard getProverb={getProverb} proverb={proverb} />
+				<ProverbsCard
+					getProverb={getProverb}
+					proverb={proverb}
+					isUpdating={isUpdating}
+				/>
 
 				<div className="relative">
 					<button
