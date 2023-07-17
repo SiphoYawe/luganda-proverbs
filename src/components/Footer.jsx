@@ -14,7 +14,7 @@ export const Footer = () => {
 				</p>
 				<a
 					className="text-xs text-gray-500 hover:underline"
-					href="https://github.com/SiphoYawe">
+					href="https://github.com/SiphoYawe/luganda-proverbs">
 					Contribute to this Project
 				</a>
 			</div>
