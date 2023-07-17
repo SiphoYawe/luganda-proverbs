@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860.36 174.23">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #5742d8;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        fill: #848484;
+        font-family: Montserrat-Medium, Montserrat;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: .1em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6, .cls-11 {
+        font-family: Montserrat-Bold, Montserrat;
+        font-size: 75px;
+        font-weight: 700;
+      }
+
+      .cls-11 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-6" transform="translate(0 138.76)"><tspan class="cls-7" x="0" y="0">L</tspan><tspan class="cls-1" x="45" y="0">uga</tspan><tspan class="cls-3" x="195.3" y="0">n</tspan><tspan class="cls-2" x="247.42" y="0">da</tspan></text>
+    <rect class="cls-5" x="375.93" y="69.43" width="438.3" height="102.8" rx="28.26" ry="28.26"/>
+    <rect class="cls-5" x="362.37" y="57.61" width="438.3" height="102.8" rx="28.26" ry="28.26"/>
+    <text class="cls-11" transform="translate(405.08 131.53)"><tspan class="cls-10" x="0" y="0">P</tspan><tspan class="cls-4" x="54.15" y="0">r</tspan><tspan class="cls-9" x="85.8" y="0">ov</tspan><tspan class="cls-2" x="177.53" y="0">e</tspan><tspan class="cls-7" x="224.85" y="0">r</tspan><tspan x="256.88" y="0">bs</tspan></text>
+    <text class="cls-8" transform="translate(734.52 34)"><tspan x="0" y="0">BETA</tspan></text>
+  </g>
+</svg>
