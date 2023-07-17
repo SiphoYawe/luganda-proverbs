@@ -55,7 +55,7 @@ const ProverbsCard = ({ getProverb, proverb, isUpdating }) => {
 					</Tooltip>
 					<Tooltip hasArrow label="Share on Twitter">
 						<a
-							href={`https://twitter.com/intent/tweet?hashtags=LugandaProverbs&text=${`Luganda: ${proverb} \n English: ${proverb} `}"}&url=www.lugandaproverbs.com`}>
+							href={`https://twitter.com/intent/tweet?hashtags=LugandaProverbs&url=www.lugandaproverbs.com`}>
 							<button className="rounded-lg bg-gray-200 p-2 hover:bg-gray-300">
 								<FaTwitter className="text-lg text-primary" />
 							</button>
@@ -79,8 +79,7 @@ const ProverbsCard = ({ getProverb, proverb, isUpdating }) => {
 					</Tooltip>
 					<Tooltip hasArrow label="Share on Twitter">
 						<a
-							href={`https://twitter.com/intent/tweet?hashtags=LugandaProverbs&text=${""}&url=www.lugandaproverbs.com`}
-							rel="canonical">
+							href={`https://twitter.com/intent/tweet?hashtags=LugandaProverbs&text=${`Luganda: ${proverb} \n English: ${proverb} `}"}&url=www.lugandaproverbs.com`}>
 							<button className="rounded-lg bg-gray-200 p-2 hover:bg-gray-300">
 								<FaTwitter className="text-lg text-primary" />
 							</button>
