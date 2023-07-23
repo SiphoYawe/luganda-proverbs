@@ -3,7 +3,7 @@
 
 
 # Luganda Proverbs (Under Construction 🚧)
-[www.luganda-proverbs.vercel.app](https://luganda-proverbs.vercel.app/)
+[www.lugandaproverbs.com](https://lugandaproverbs.comp/)
 
 This project aims to provide an interactive website that generates traditional Luganda sayings and proverbs along with their English translations.
 
@@ -28,10 +28,6 @@ This project aims to provide an interactive website that generates traditional L
  - [learnluganda.com/proverbs](https://learnluganda.com/proverbs)
 
 
-
-## Feedback
-
-If you have any feedback, please reach out to me at yawephillip@gmail.com
 
 
 ## License
